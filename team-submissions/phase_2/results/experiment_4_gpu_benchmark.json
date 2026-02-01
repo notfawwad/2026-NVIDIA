@@ -1,0 +1,57 @@
+{
+  "N": 25,
+  "batch_sizes": [
+    100,
+    500,
+    1000,
+    5000,
+    10000
+  ],
+  "results": [
+    {
+      "batch_size": 100,
+      "cpu_time": 0.005285739898681641,
+      "gpu_time": 0.0014083385467529297,
+      "speedup": 3.7531742001015744,
+      "max_error": 0.0
+    },
+    {
+      "batch_size": 500,
+      "cpu_time": 0.02601146697998047,
+      "gpu_time": 0.0014200210571289062,
+      "speedup": 18.317662860980523,
+      "max_error": 0.0
+    },
+    {
+      "batch_size": 1000,
+      "cpu_time": 0.051564693450927734,
+      "gpu_time": 0.0015301704406738281,
+      "speedup": 33.69866001869741,
+      "max_error": 0.0
+    },
+    {
+      "batch_size": 5000,
+      "cpu_time": 0.25795817375183105,
+      "gpu_time": 0.0017175674438476562,
+      "speedup": 150.18808995002777,
+      "max_error": 0.0
+    },
+    {
+      "batch_size": 10000,
+      "cpu_time": 0.5221512317657471,
+      "gpu_time": 0.0017590522766113281,
+      "speedup": 296.83667660612633,
+      "max_error": 0.0
+    }
+  ],
+  "system_info": {
+    "timestamp": "2026-02-01T00:03:00.155342",
+    "gpu_available": true,
+    "gpu_name": "NVIDIA L40S",
+    "gpu_memory_gb": 44.41845703125,
+    "python_version": "3.10+",
+    "numpy_version": "2.4.1",
+    "cupy_version": "13.6.0",
+    "cuda_version": 12090
+  }
+}

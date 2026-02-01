@@ -1,0 +1,20 @@
+{
+  "total_execution_time": 482.63627195358276,
+  "timestamp": "2026-02-01T00:03:00.155514",
+  "experiments_completed": 4,
+  "system_info": {
+    "timestamp": "2026-01-31T23:54:57.519159",
+    "gpu_available": true,
+    "gpu_name": "NVIDIA L40S",
+    "gpu_memory_gb": 44.41845703125,
+    "python_version": "3.10+",
+    "numpy_version": "2.4.1",
+    "cupy_version": "13.6.0",
+    "cuda_version": 12090
+  },
+  "key_findings": {
+    "max_speedup": 33.619371711471516,
+    "mean_merit_factor": 3.4622697871088706,
+    "quantum_advantage_demonstrated": true
+  }
+}
